@@ -1,0 +1,48 @@
+
+
+
+/* los div de ropa y accesorios , sus textos tambien */
+.card {
+    border: none;
+ 
+   margin: 2%;
+  }
+  
+  .card-img-top {
+    height: 300px
+  
+  
+  }
+ 
+  
+    .my-5 {
+      padding: 50px;
+     
+    }
+    
+    .my-5 h2 {
+      font-size: 2.5rem;
+      font-weight: bold;
+      margin-bottom: 40px;
+      text-align: center;
+    }
+    
+    
+    
+    .card-img-top {
+      height: 500px;
+    
+    }
+    .text{
+        text-align: center;
+        justify-content: center;
+    }
+    .card-text {
+        border-bottom: none;
+        background: none;
+        border: none;
+        padding: 0;
+      text-align: center;
+    }
+
+

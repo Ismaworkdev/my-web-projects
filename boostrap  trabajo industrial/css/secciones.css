@@ -1,0 +1,68 @@
+body{
+   font-family: "Century Gothic" !important;
+}
+
+.logo{
+    height: 100px;
+    width: 100px;
+}
+
+
+.text_industry{
+    background-color: rgba(0, 255, 255, 0.199);
+    padding: 2%;
+    border-radius: 3% ;
+margin: 3%;
+
+}
+
+#info{
+   border-left:   1px solid rgb(255, 255, 255);
+}
+
+#info1{
+    border-left:   1px solid rgb(255, 255, 255);
+ }
+ #info2{
+    border-left:   1px solid rgb(255, 255, 255);
+ }
+
+
+ #botton2{
+    background-color: rgba(61, 192, 192, 0.61);
+ }
+ #botton{
+    background-color: rgba(61, 192, 192, 0.61);
+ }
+
+ #botton1{
+    background-color: rgba(61, 192, 192, 0.61);
+ }
+ #botton3{
+    background-color: rgba(61, 192, 192, 0.61);
+ }
+
+ .custom-btn {
+    
+   padding: 12px 24px;
+   font-size: 16px;
+  
+   color: #fff;
+   background-color: #000000;
+   border-radius: 4px;
+   text-decoration: none;
+   
+   position: relative;
+   z-index: 2;
+ }
+ 
+ .custom-btn:hover {
+   text-decoration: none;
+   background-color: #333;
+   color: #71a1009d;
+
+ }
+
+ .footer{
+   bottom: 0%;
+ }

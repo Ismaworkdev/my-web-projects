@@ -1,0 +1,35 @@
+
+
+/* main principal */
+.mainn{
+    margin-top: 10%;
+}
+/* ajustar los sections */
+.sections{
+    justify-content: center;
+    margin-top: 2%;
+    align-items: center;
+}
+
+.section{
+    margin: 2%;
+    background-color: rgba(240, 248, 255, 0.158);
+    padding-left: 2%;
+    border-radius: 2%;
+
+}
+.section:hover{
+    box-shadow: 0 0 10px rgb(255, 255, 255);
+}
+/* colocar las imagenes */
+.imgg{
+    height: 400px;
+    width: 1000px;
+}
+
+.bolsaaa{
+    margin-left: 2%;
+    justify-content: center;
+    width: 1450px;
+    height: 200px;
+}
