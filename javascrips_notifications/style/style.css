@@ -1,0 +1,100 @@
+    /*el indice  */
+  body{
+    background-color: aqua;
+    margin: 0%;
+  }
+ .container{
+  display: flex;
+  margin: 0 auto;
+  justify-content: space-around;
+ }
+    .header{
+      display: flex;
+      margin: 0 auto;
+        background-color: black;
+        position: fixed;
+   
+    }
+      .indice{
+        display: flex;
+        margin: 0 auto;
+        margin-left: 10% ;
+        margin-right: 10%;
+       align-items: center;
+        top:   8em;
+        display:flex;
+        list-style-type: none;
+        justify-content: center;
+        padding:0;
+        margin: 10px;
+      }
+      
+      .classindice{
+        width: 218px;
+        padding: 10px;
+      }
+      
+      .link {
+        
+        display: block;
+        text-align: center;
+        text-decoration: none;
+        font-size: 1em;
+        font-variant: small-caps;
+        font-weight: bold;
+        font-family: "Century Gothic";  
+        color: rgb(34, 158, 180);
+        padding: 10px 10px 10px 10px;
+        border-radius: 3px;
+      }
+      
+      .link:hover {
+        background: rgb(106, 148, 238);
+        color: white;
+      }
+      .classsindice{
+        justify-content: flex-end;
+      }
+ 
+     .video{
+      position: absolute;
+     }
+      
+     
+   .cointe{
+ position: relative;
+    display: flex;
+     margin: 0 auto;
+     height: 1000px;
+     height: 1400px;
+
+   }
+
+.lol{
+  height: 1000px;
+  width:1400px;
+ margin-top: 100%;
+text-align: center;
+  position:fixed;
+  
+  text-align: center;
+  justify-content: center;
+}
+
+
+
+
+
+
+
+       /*video  */
+      
+        
+/*no me va el video  */ 
+   /*   .pic2{
+        position :relative ;
+        border: solid 10px blue;
+      justify-content: center;
+      text-align: center;
+        margin: auto;
+   }*/
