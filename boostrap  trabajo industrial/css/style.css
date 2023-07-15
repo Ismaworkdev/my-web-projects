@@ -1,0 +1,62 @@
+  /* body stuff*/
+body{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    font-family: "Century Gothic"!important; 
+
+  }
+  
+  .container-fluid {
+    position: relative;
+    height: 100%;
+    width: 100%;
+
+    background-size: cover;
+  }
+  /* the  video  */
+  video {
+    min-width: 100%;
+    min-height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+  
+  
+  }
+
+  .texto{
+    color: #50dddd9d;
+  }
+  
+
+   /* general buttons  */
+    .custom-btn {
+    
+      padding: 12px 24px;
+      font-size: 16px;
+      font-weight: bold;
+      color: #fff;
+      background-color: #000;
+      border-radius: 4px;
+      text-decoration: none;
+      
+      position: relative;
+      z-index: 2;
+    }
+    
+    .custom-btn:hover {
+      text-decoration: none;
+      background-color: #333;
+      color: #50dddd9d;
+  
+    }
+  
+    
+    .card-img-overlay {
+      position: relative;
+      z-index: 1;
+    }
+    

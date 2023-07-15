@@ -1,0 +1,66 @@
+
+body {
+  font-family: "Century Gothic"!important; 
+}
+
+
+
+/* Personalización de la barra lateral de la tienda */
+.navbar-nav .nav-item {
+    align-items: center;
+    padding-left: 20%;
+    padding-right: 20%;
+       border-left: 2px solid black;
+       color: #000000;
+       /* agregar borde inferior */
+     }
+     
+     .navbar-nav .nav-link:hover {
+       justify-content: space-around;
+      /* cambiar color de fondo al pasar el cursor */
+       color: rgb(15, 219, 241); 
+       font-weight: 500;/* cambiar color del texto al pasar el cursor */
+     }
+     .navbar-nav .nav-link{
+    color: #0a0a0a;
+     }
+   
+     .navbar-nav .nav-itemn {
+      color: #000;
+       align-items: center;
+       padding-left: 20%;
+       padding-right: 20%;
+          border-left: 2px solid black;
+          border-right: 2px solid black;
+          /* agregar borde inferior */
+        }
+        
+.navbar{
+    background-color: rgba(192, 228, 216, 0.966);
+}  
+
+.navbar-toggler-icon {
+  background-color: rgb(195, 243, 149);
+}
+
+
+
+/* botton general */
+
+.custom-btn {
+  display: inline-block;
+  padding: 12px 24px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #fff;
+  background-color: #000;
+  border-radius: 4px;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.custom-btn:hover {
+  text-decoration: none;
+  background-color: #333;
+  color: #bdf0f0;
+}

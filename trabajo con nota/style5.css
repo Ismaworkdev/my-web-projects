@@ -1,0 +1,169 @@
+* {  box-sizing: border-box;
+}
+body {  
+  
+  font-family: "Century Gothic"; 
+  background-image:url(./IMAGENES/xddd.png)  ;
+  font-size: 17px;
+  font-weight:600;
+}
+
+/* Estilo del encabezado */
+.header {
+      
+ width: 100%;
+ height: 100%;
+  background-image:  url(./IMAGENES/lol.png)     ;
+  background-repeat: no-repeat;
+  background-position:top;
+  padding: 75px;
+  text-align: center;
+  background-color: aqua;
+  font-size: 35px;
+   color: lightgrey;
+  
+}
+
+
+  /* Estilo DEL DIV DE LA IZQUIERDA  */
+   
+
+.class1  {
+  
+  list-style: none;
+  background-position: top;
+  float:none;
+  width: 100%;
+  padding: 25px;
+  padding-right: 5%;
+  height: 100%; 
+  
+}
+
+.link1{
+  
+  display: block;
+  text-align:left;
+  text-decoration: none;
+  font-size: 1em;
+  font-variant: small-caps;
+  font-weight: bold;
+  font-family: "Century Gothic";  
+  color: rgb(68, 17, 187);
+  padding: 10px 10px 10px 10px;
+  border-radius: 3px;
+}
+.link1{
+  background: rgb(106, 148, 238);
+  color: white;
+}
+ 
+
+
+/* Estilo DEL DIV DONDE ESTA LA TABLA ETC... */
+.column2 {
+  border-left: #334d58  3px  dashed;
+  float:left;
+  width: 80%;
+  padding: 10px;
+  height: 100%; 
+}
+
+/* DIV PRINCIPAL  */
+.row{
+  
+   
+  display: flex;
+ 
+}
+
+/* pie de pagina o  footer */
+.footer {
+  display:flex;
+  list-style: none;
+  justify-content: center;
+  padding: 10px;
+  margin: 10px;
+  text-align: center;
+  background-image: url(./IMAGENES/ssss.png);
+}
+
+ .footer1{
+  display: block;
+  list-style: none;
+    color: azure;
+
+ }
+
+
+ 
+
+
+/*   layout  */
+
+@media (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+
+
+}
+
+
+
+
+
+/* Estilo DEL INDICE DEL HEADER  */
+
+
+.indice{
+  display:flex;
+  list-style-type: none;
+  justify-content: center;
+  padding:0;
+  margin: 10px;
+}
+
+.classindice{
+  width: 300px;
+  padding: 10px;
+}
+
+.link {
+  /* Que no se nos olvide */
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  font-size: 1em;
+  font-variant: small-caps;
+  font-weight: bold;
+  font-family: "Century Gothic";  
+  color: rgb(34, 158, 180);
+  padding: 10px 10px 10px 10px;
+  border-radius: 3px;
+}
+
+.link:hover {
+  background: rgb(106, 148, 238);
+  color: white;
+}
+
+
+
+/* Estilo de la tabla  */
+
+.tabla  {
+  border: #850f75 3px solid;
+}
+
+.g{
+  border: #850f75 3px solid;
+}
+
+/* Estilo del formulario */
+
+.formulario{
+margin-top: 7%;
+padding: 1%;
+  border: #274c6b  6px solid ;
+}
