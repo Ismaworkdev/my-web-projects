@@ -1,0 +1,34 @@
+
+
+
+/* editar los accordeones para que no parezca boostrap */
+.accordion-item {
+  border: 1px solid #ffffff;
+  margin-bottom: 20px;
+}
+
+.accordion-header {
+  background-color: #f8f8f8;
+  padding: 10px;
+}
+.accordion-header:hover{
+    color: #82e2f3;
+    background-color: #3ecbe4;
+}
+
+.accordion-button {
+  background-color: transparent;
+  color: #333;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.accordion-button:hover {
+ color: #aaeaf5;
+}
+
+/* el mensaje de suscripcion */
+.modal{
+  color: #000;
+}
+

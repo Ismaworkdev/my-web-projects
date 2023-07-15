@@ -1,0 +1,87 @@
+/* main princial */
+.main {
+    margin-top: 15%;
+    width: 1200px;
+    margin: 0 auto;
+    padding: 50px;
+    display: block;
+  }
+  
+  .introduction {
+    margin-bottom: 50px;
+  }
+  
+  .introduction h1 {
+    font-size: 36px;
+   margin-top: 10%;
+  }
+  
+  .introduction p {
+    font-size: 18px;
+  
+    margin-bottom: 20px;
+  }
+  
+  .sectors {
+    margin-bottom: 50px;
+  }
+  
+  .sectors h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .sectors h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .sectors p {
+    font-size: 18px;
+   
+    margin-bottom: 20px;
+  }
+  
+.tipos{
+    
+    background-color: rgba(240, 248, 255, 0.205);
+    padding: 2%;
+}
+/* las noticias */
+.sectors_tips{
+list-style: none;
+}
+
+
+
+.latest-news-heading{
+
+text-align: center;
+}
+  
+
+
+.latest-news-content{
+    background-color: rgba(240, 248, 255, 0.253);
+   overflow: hidden;
+   margin-top: 2%;
+   border-radius: 2%;
+   height: auto;
+   padding-bottom: 0%;
+
+}
+.latest-news-text{
+padding-left: 1%;
+}
+
+.latest-news-content:hover{
+    box-shadow: 0 0 10px rgb(255, 255, 255);
+}
+
+
+.latest-news-title{
+justify-content: center;
+align-items: center;
+}
+
+
